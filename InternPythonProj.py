@@ -2,7 +2,7 @@ def double_list(lst):
     """
     Double each element in a list.
     """
-    for ind in range(lst):
+    for ind in range(lst, 0, -1):
         lst[ind] = lst[ind] * 2
     return lst
 
